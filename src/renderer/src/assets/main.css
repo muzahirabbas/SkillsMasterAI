@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-neutral-900 text-neutral-100 antialiased overflow-hidden m-0 p-0 h-screen w-screen selection:bg-indigo-500/30;
+  }
+
+  #root {
+    @apply h-full w-full flex;
+  }
+}
